@@ -1,0 +1,97 @@
+nav {
+    background-color: darkolivegreen;
+    border-radius: 20px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+a{
+    color:lime;
+}
+
+body {
+    background-color: olive;
+    font-family: "Arial", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+}
+
+section{
+    display: flex;
+}
+
+#first {
+    background-image: url("Kebab.jpg");
+    background-size: 100%;
+    opacity: 90%;
+}
+
+article:hover {
+    opacity: 100%;
+    transform: scale(0.97);
+    transition: .2s ease-in-out;
+}
+
+h1  {
+    color: darkolivegreen;
+    text-shadow: -1px 0 lime, 0 1px lime, 1px 0 lime, 0 -1px lime;
+}
+
+p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+article {
+    background-color: darkolivegreen;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+article img {
+    width: 95%;
+    height: 30%;
+    border-radius: 5%;
+}
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer img{
+    width: 10%;
+}

@@ -1,0 +1,81 @@
+* {
+  font-family: 'Sen', sans-serif;
+  text-align: center;
+  font-size: 13px;
+}
+
+#logo {
+  width: 60vh;
+  margin: 15px 0 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 5vh;
+  margin: 0 0 15px 0;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  color: #333;
+}
+
+.text-hover:hover {
+  color:#3e9f8e;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#main-pic {
+  background-image: url(./img/headerImg.jpg);
+
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: bottom right 10%;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 5vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article > img {
+  width: 220px;
+  height: 80px;
+  padding-bottom: 5px;
+}
+
+article > img:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  transition: 0.4s;
+}
+
+article > div {
+  align-self: center;
+  width: 120px;
+}
+
+div > p {
+  font-size: 8px;
+  text-size-adjust:inherit;
+}
+
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#foot-logo {
+  width: 120px;
+}
+
+
